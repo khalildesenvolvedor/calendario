@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.conteudo {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 800px;
+}
+
+.calendario {
+    text-align: center;
+    flex: 2;
+}
+
+.biografia {
+    text-align: left;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.calendario header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.sign-symbol {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.btn-ant, .btn-pro {
+    position: absolute;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.btn-ant {
+    left: 20px;
+}
+
+.btn-pro {
+    right: 20px;
+}
+
+.btn-ant:hover, .btn-pro:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.calendario table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendario thead {
+    background-color: rgb(82, 82, 82);
+    color: #8a8a8a;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 2px solid #a00101;
+    border-bottom: 2px solid #a00101;
+}
+
+.calendario thead td {
+    height: 50px;
+}
+
+.calendario td {
+    border: 1px solid #000000;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    cursor: pointer;
+}
+
+.calendario tbody td:hover {
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+.calendario table .hoje {
+    background-color: #660101;
+    color: #ffffff;
+}
+
+.biografia {
+    background-color:none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Signo colors */
+.aries { background-color: #ce0202; }
+.taurus { background-color: #239939; }
+.gemini { background-color: #432ca7; }
+.cancer { background-color: #a33d74; }
+.leo { background-color: #c0a849; }
+.virgo { background-color: #48aa97; }
+.libra { background-color: #cc4426; }
+.scorpio { background-color: #41b456; }
+.sagittarius { background-color: #513dac; }
+.capricorn { background-color: #a33771; }
+.aquarius { background-color: #b19b43; }
+.pisces { background-color: #48ad99; }
+

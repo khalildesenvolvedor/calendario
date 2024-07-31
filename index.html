@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendário</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="calendario">
+            <header>
+                <h2 id="mes">junho</h2>
+                <div id="sign-symbol" class="sign-symbol"></div>
+                <a class="btn-ant" id="btn_prev">-</a>
+                <a class="btn-pro" id="btn_next">+</a>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <td>dom</td>
+                        <td>seg</td>
+                        <td>ter</td>
+                        <td>qua</td>
+                        <td>qui</td>
+                        <td>sex</td>
+                        <td>sab</td>
+                    </tr>
+                </thead>
+                <tbody id="dias">
+                    <!-- As células dos dias serão preenchidas dinamicamente -->
+                </tbody>
+            </table>
+            <footer>
+                <h2 id="ano">2024</h2>
+            </footer>
+        </div>
+        <div class="biografia">
+            <h2>Biografia do Signo</h2>
+            <p id="bio-content">Informações sobre o signo aparecerão aqui.</p>
+        </div>
+    </div>
+    <script src="cale.js"></script>
+</body>
+</html>
